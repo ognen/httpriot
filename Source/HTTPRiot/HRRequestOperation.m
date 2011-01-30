@@ -139,7 +139,7 @@
     if ([_delegate respondsToSelector:@selector(restConnection:didReceiveResponse:object:)]) {
         [_delegate performSelectorOnMainThread:@selector(restConnection:didReceiveResponse:object:) withObjects:connection, response, _object, nil];
     }else {
-		HRLog(@"FATAL: delegate not set OR delegate does not implement restConnection:didReceiveResponse:object:")
+		HRLOG(@"FATAL: delegate not set OR delegate does not implement restConnection:didReceiveResponse:object:")
 	}
 
     
