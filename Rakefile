@@ -1,4 +1,6 @@
-require 'rubygems'
+require "rubygems"
+require "bundler/setup"
+
 require 'rake/packagetask'
 require 'plist' 
 require 'versionomy'

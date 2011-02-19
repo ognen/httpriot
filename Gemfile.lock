@@ -1,0 +1,16 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    blockenspiel (0.4.1)
+    plist (3.1.0)
+    rake (0.8.7)
+    versionomy (0.4.0)
+      blockenspiel (>= 0.3.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  plist
+  rake
+  versionomy
